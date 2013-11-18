@@ -1,0 +1,112 @@
+#bg {
+	background: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-color: #000000;
+	background-attachment:fixed;
+}
+
+.menuBar {
+	display: block;
+	background-color: #FFFFFF;
+	border: 3px solid black;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	width: 600px;
+}
+
+.portrait {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.textBox {
+	display: block;
+	width: 600px;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px 10px 10px;
+	border: 5px solid black;
+	margin-top: 20px;
+}
+
+.textContent {
+	margin: 20px;
+	text-align: justify;
+	font-family: arial;
+}
+
+.circleButton {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	background-color: #FFFFFF;
+	border: 5px solid black;
+	border-radius: 80px;
+	top: -0px;
+	opacity: 0.5;
+}
+
+.buttonDiv:hover {
+	cursor: hand;
+}
+
+.buttonDiv {
+	width: 800px;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid red;
+}
+
+.viewHolder {
+	margin-top: 0px;
+}
+
+.myName {
+	font-family: arial;
+	font-size: 20;
+	font-weight: bold;
+}
+
+.buttonIcon {
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+	width: 80px;
+}
+
+a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14;
+}
+
+a:visited {
+	color: #000000;
+}
+
+.smallIcon {
+	top: 5px;
+	height: 30px;
+}
+
+.downloadText {
+	position: relative; 
+	top: -5px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.skillBar {
+	font-weight: bold;
+	font-size: 12px;
+}

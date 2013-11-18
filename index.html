@@ -1,0 +1,68 @@
+<html>
+
+	<head>
+		<title>Kristinn E. Kristmundsson</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script type="text/javaScript" src="js/script.js"></script>
+	</head>
+
+	<body id="bg" ng-app="myCVApp">
+
+	<div>
+			<center>
+
+			<div class="circleButton" title="Me in a nutshell" id="aboutMeButton" style="opacity: 1.0;">
+				<img src="img/smiley_icon.png" class="buttonIcon" style="cursor: hand;">
+			</div>
+			
+			<div class="circleButton" title="Academic career" id="academicButton">
+				<img src="img/academic_icon.png" class="buttonIcon" style="width:50px; left:18px; top:14px; cursor: hand;">
+			</div>
+
+			<img src="img/portrait.png" class="portrait">
+			
+			<div class="circleButton" title="Work experience" id="jobButton">
+				<img src="img/job_icon.png" class="buttonIcon" style="width:50px; left:15px; top:12px; cursor: hand;">
+			</div>
+
+			<div class="circleButton" title="My work" id="myWorkButton">
+				<img src="img/code_icon.png" class="buttonIcon" style="width:60px; left:10px; top:10px; cursor: hand;">
+			</div>
+
+			<div class="viewHolder">
+				<div class="textBox">
+					<div class="textContent" ng-view>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="textBox">
+				<div class="textContent">
+					<table width="100%">
+						<tr>
+							<td align="left">
+								<a href="mailto:kristinnes@gmail.com" title="kristinnes@gmail.com">
+									<img src="img/email_icon.png" class="smallIcon">
+								</a>
+								<a href="https://www.facebook.com/kiddi.mus.1" title="My facebook page">
+									<img src="img/facebook_icon.png" class="smallIcon">
+								</a>
+							</td>
+							<td align="right">
+								<a href="docs/kristinnCV.pdf" title="Download offline CV">
+									<font class="downloadText">Download CV</font>
+									<img src="img/download_icon.png" class="smallIcon">
+								</a>
+							</td>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
